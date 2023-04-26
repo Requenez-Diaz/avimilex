@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template></template>
+  </category>
+  
+    <category>
+        <pattern>*</pattern>
+        <template>
+       Node.js es un entorno de tiempo de ejecución de JavaScript 
+       de código abierto y multiplataforma. Se utiliza para construir aplicaciones de servidor que ejecutan código 
+       JavaScript en el lado del servidor en lugar de en el navegador del cliente. 
+       Node.js se utiliza para construir aplicaciones web, aplicaciones móviles, aplicaciones de escritorio y mucho más
+        </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Para instalar Node.js, primero debes ir al sitio web 
+            oficial de Node.js y descargar el instalador adecuado para tu sistema operativo. Una vez descargado, ejecuta el instalador y 
+            sigue las instrucciones en pantalla para completar la instalación.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+            La principal característica de Node.js es que utiliza un modelo de E/S sin bloqueo y basado en eventos.
+            Esto significa que Node.js es capaz de manejar múltiples solicitudes de manera eficiente y escalable, sin bloquear el proceso principal.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+        En Node.js, un módulo es un archivo JavaScript que contiene código reutilizable y se puede importar en otros archivos JavaScript utilizando la función require().
+        Los módulos en Node.js se utilizan para dividir el código en partes más pequeñas y manejables, 
+        lo que facilita la reutilización del código y la organización de los proyectos.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+        npm es el sistema de gestión de paquetes de Node.js. Se utiliza para instalar, actualizar y administrar paquetes de código
+        JavaScript que se pueden utilizar en proyectos de Node.js. 
+        npm también permite a los desarrolladores publicar y compartir sus propios paquetes de código con la comunidad de Node.js.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+        Express.js es un marco de aplicación web para Node.js.
+        Proporciona una estructura sólida para construir aplicaciones web y APIs, y ofrece una amplia variedad de funciones y herramientas para facilitar el desarrollo web.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+        Para instalar Express.js, primero debes asegurarte de tener Node.js instalado en tu sistema. 
+        Luego, puedes abrir una terminal y ejecutar el siguiente comando para instalar Express.js como una dependencia de tu proyecto: puedes intalarlo con : npm install express
+        </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+        En Express.js, puedes crear una ruta utilizando la función get() o post() del objeto app.
+        Aquí tienes un ejemplo de cómo crear una ruta GET: 
+    
+        const express = require('express');
+        const app = express();
+
+        app.get('/', (req, res) => {
+        res.send('¡Hola mundo!');
+        </template>
+    </category>
+</aiml>
